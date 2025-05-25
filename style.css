@@ -1,4 +1,63 @@
+html, body {
+    background-color : #f0f0f0 !important;
+}
+
 #mainNav {
-    background-color: #063068;
-    color: #f7f8ff;
+    background-color: #063068 !important;
+    margin-bottom: 20px !important;
+    display: flexbox !important;
+}
+
+#mainNav .navbar-toggler {
+    border-color: #ffffff !important;
+    background-color: #ffffff !important;
+}
+
+.navbar {
+    padding: 10px 20px !important;
+}
+
+.navbar-nav {
+    margin-right: 50px !important;
+    margin-left: auto !important;
+    justify-content: space-between !important;
+}
+
+.nav-link, .navbar-brand {
+    color: whitesmoke !important;
+    font-size: 1.2rem !important;
+}
+
+.nav-link:hover {
+    color: #f0f0f0 !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+    transition: color 0.3s ease !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+#about {
+    margin-top: 5rem !important;
+}
+
+#htmlImg img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    background: white !important;
+}
+
+.card {
+    margin: 20px !important;
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    height: auto !important;
+    width: 300px !important;
+    transition: transform 0.3s ease !important;
 }
